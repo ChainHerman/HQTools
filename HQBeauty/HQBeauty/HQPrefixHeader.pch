@@ -1,0 +1,16 @@
+//
+//  HQPrefixHeader.pch
+//  HQBeauty
+//
+//  Created by macq on 2019/3/26.
+//  Copyright © 2019 HQ. All rights reserved.
+//
+
+#ifndef HQPrefixHeader_pch
+#define HQPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define LYWS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#endif /* HQPrefixHeader_pch */
