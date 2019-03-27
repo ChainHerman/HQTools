@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "heqian" => "1902046492@qq.com" }
   s.source       = { :git => "https://github.com/HermanForHeQian/HQTools.git",:tag => s.version }
   s.source_files  = "HQTools.framework/Headers/*.{h}"
+  s.vendored_frameworks = 'HQTools.framework'
   s.platform     = :ios, "9.0"
 ###  s.exclude_files = "Classes/Exclude"
 
