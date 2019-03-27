@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HQTools"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "HQ工具类"
   s.description  = <<-DESC
 					描述为空？
